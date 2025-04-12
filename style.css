@@ -1,0 +1,22 @@
+div.home-div {
+    margin: 15rem auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.projects-div {
+    margin: 5rem auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.circle-img {
+    border-radius: 10%;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
