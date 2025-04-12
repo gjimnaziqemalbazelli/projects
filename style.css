@@ -20,3 +20,19 @@ div.home-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media only screen and (max-width: 1000px) {
+    .wrapper {
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .wrapper {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
